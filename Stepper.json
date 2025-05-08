@@ -1,0 +1,54 @@
+{
+  "steps": [
+    {
+      "label": "Step 1",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email", 
+          "type": "email",
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "Step 2", 
+      "fields": [
+        {
+          "name": "username",
+          "label": "Username",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "Step 3",
+      "fields": [
+        {
+          "name": "company",
+          "label": "Company Name",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "Step 4",
+      "fields": [
+        {
+          "name": "company",
+          "label": " Company Position",
+          "type": "text",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
